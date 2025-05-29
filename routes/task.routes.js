@@ -3,7 +3,6 @@ const router = express.Router();
 const taskController = require('../controllers/task.controller');
 const { verifyToken } = require('../middlewares/auth.middleware');
 
-console.log(verifyToken);
 
 router.use(verifyToken);
 
