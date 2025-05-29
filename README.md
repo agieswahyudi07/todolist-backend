@@ -55,7 +55,7 @@ The database schema will be auto-created via `sequelize.sync()` on first run.
 ## ▶️ Start the Server
 
 ```bash
-nodemon server.js
+npm start
 ```
 
 Server will run at: [http://localhost:5000](http://localhost:5000)
